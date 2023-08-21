@@ -23,14 +23,13 @@
 <meta property="og:site_name" content="编外王某">
 <meta property="og:description" content="本文以zz提供的《assttyys使用onebots推送》为基础进行实践操。 运行环境 nodejs(v18.15.0) jdk(v20.0.2)[1] unidbg-fetch-qsign(v1.1.6)[2] onebots(v0.4.12)  安装unidbg-fetch-qsign 下载并解压unidbg-fetch-qsign 进入unidbg-fetch-qsign文件夹 修改txli">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://kuhai001.github.io/onebots%5Cimage.png">
 <meta property="og:image" content="https://kuhai001.github.io/2023/08/21/onebots/image.png">
-<meta property="og:image" content="https://kuhai001.github.io/onebots%5Cimage-1.png">
+<meta property="og:image" content="https://kuhai001.github.io/2023/08/21/onebots/image-1.png">
 <meta property="article:published_time" content="2023-08-21T04:17:40.000Z">
-<meta property="article:modified_time" content="2023-08-21T04:50:44.846Z">
+<meta property="article:modified_time" content="2023-08-21T07:42:15.988Z">
 <meta property="article:author" content="编外王某">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://kuhai001.github.io/onebots%5Cimage.png">
+<meta name="twitter:image" content="https://kuhai001.github.io/2023/08/21/onebots/image.png">
   
   
   
@@ -286,9 +285,10 @@
 <h1 id="安装unidbg-fetch-qsign"><a href="#安装unidbg-fetch-qsign" class="headerlink" title="安装unidbg-fetch-qsign"></a>安装unidbg-fetch-qsign</h1><ol>
 <li>下载并解压unidbg-fetch-qsign</li>
 <li>进入unidbg-fetch-qsign文件夹</li>
-<li>修改txlib&#x2F;8.9.70<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="此处即是*安卓apad8.9.70*相关的配置文件。">[3]</span></a></sup>&#x2F;config.json下的端口与key，端口修改为非常用端口，key用于授权使用<img src="/onebots%5Cimage.png" srcset="/img/loading.gif" lazyload><img src="/2023/08/21/onebots/image.png" srcset="/img/loading.gif" lazyload class="" title="这是一张图片"></li>
-<li>运行qsign。<br><code>bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.70</code><br><img src="/onebots%5Cimage-1.png" srcset="/img/loading.gif" lazyload></li>
+<li>修改txlib&#x2F;8.9.70<sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="此处即是*安卓apad8.9.70*相关的配置文件。">[3]</span></a></sup>&#x2F;config.json下的端口与key，端口修改为非常用端口，key用于授权使用<img src="image.png" srcset="/img/loading.gif" lazyload></li>
+<li>运行qsign。<br><code>bash bin/unidbg-fetch-qsign --basePath=txlib/8.9.70</code></li>
 </ol>
+<p><img src="image-1.png" srcset="/img/loading.gif" lazyload></p>
 <section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>安装jdk将安装目录设定在系统盘之外，jdk20安装程序应当会自动配置path。进入命令行，输入java，如果不能正常运行，请手动配置系统环境变量。可以参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_38436214/article/details/105071088">https://blog.csdn.net/qq_38436214&#x2F;article&#x2F;details&#x2F;105071088</a>
 <a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><strong>请注意</strong>：unidbg-fetch-qsign与onebots使用的plateform需要匹配，目前版本onebots的plateform版本为<em>安卓apad 8.9.70</em>，对应的unidbg-fetch-qsign版本为1.1.6。
 <a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span>此处即是<em>安卓apad8.9.70</em>相关的配置文件。
